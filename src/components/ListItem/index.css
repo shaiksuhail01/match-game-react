@@ -1,0 +1,18 @@
+.buttonEle {
+  background-color: transparent;
+  border-width: 0px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.itemImage {
+  width: 68px;
+}
+@media screen and (min-width: 768px) {
+  .itemImage {
+    width: 140px;
+  }
+  .buttonEle {
+    margin: 6px;
+  }
+}

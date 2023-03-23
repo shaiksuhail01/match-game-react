@@ -1,0 +1,24 @@
+.tabItemContainer {
+  margin: 6px;
+}
+.buttonEl {
+  background-color: transparent;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.activeButton {
+  border-bottom-width: 2px;
+  border-bottom-color: #fec653;
+  border-bottom-style: solid;
+  color: #fec653;
+}
+@media screen and (min-width: 768px) {
+  .buttonEl {
+    font-size: 19px;
+  }
+}
